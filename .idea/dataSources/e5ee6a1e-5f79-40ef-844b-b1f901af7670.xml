@@ -1,0 +1,19 @@
+<dataSource name="MySQL - Struts2Hibernate@localhost">
+  <database-model serializer="dbm" rdbms="MYSQL" format-version="2.6">
+    <schema id="1" name="struts2hibernate">
+      <visible>1</visible>
+    </schema>
+    <schema id="2" name="appfuse" />
+    <schema id="3" name="db-mcms-open" />
+    <schema id="4" name="demo" />
+    <schema id="5" name="information_schema" />
+    <schema id="6" name="myproject" />
+    <schema id="7" name="mysql" />
+    <schema id="8" name="order" />
+    <schema id="9" name="performance_schema" />
+    <schema id="10" name="shopping" />
+    <schema id="11" name="tutorial_hibernate" />
+    <schema id="12" name="tutorial_service" />
+    <schema id="13" name="tutorial_spring" />
+  </database-model>
+</dataSource>
