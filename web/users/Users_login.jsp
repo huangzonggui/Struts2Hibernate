@@ -261,7 +261,7 @@ body{
 						<input type="reset" class="btn" value="重置"/>
 					</div>
 					<div>
-					  <s:fielderror/> <!-- 显示表单验证的出错信息 -->
+					  <s:fielderror/> <!-- 显示表单验证的出错信息,要导入taglib prefix="s" uri="/struts-tags" -->
 					</div>
 					<!-- end of form -->
 					</form>
