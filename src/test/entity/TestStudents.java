@@ -54,6 +54,5 @@ public class TestStudents {
 
         tx.commit();
         sessionFactory.close();
-
     }
 }
