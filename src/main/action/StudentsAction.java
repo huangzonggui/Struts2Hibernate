@@ -22,4 +22,12 @@ public class StudentsAction extends SuperAction {
         }
         return "query_success";
     }
+
+    //删除指定学生
+    public String delete(){
+        StudentsDAO sdao = new StudentsDAOImpl();
+        String sid = request.getParameter("sid");
+        sdao.deleteStudents(sid);
+        return "delete_success";
+    }
 }

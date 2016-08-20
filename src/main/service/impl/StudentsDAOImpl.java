@@ -60,6 +60,21 @@ public class StudentsDAOImpl implements StudentsDAO {
 
     @Override
     public boolean deleteStudents(String sid) {
-        return false;
+        Transaction tx = null;
+
+        try {
+            Session session = MyHibernateSessionFactory.getSessionFactory().getCurrentSession();
+            tx = session.beginTransaction();
+            Students s = (Students) session.get(Students.class, sid);
+            session.delete(s);
+            tx.commit();
+            return true;
+        } catch (Exception ex) {
+            ex.printStackTrace();
+            tx.commit();
+            return false;
+        } finally {
+            tx = null;
+        }
     }
 }
