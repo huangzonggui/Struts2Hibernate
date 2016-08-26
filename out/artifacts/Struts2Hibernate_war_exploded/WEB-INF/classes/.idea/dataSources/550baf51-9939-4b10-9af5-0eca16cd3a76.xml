@@ -1,0 +1,56 @@
+<dataSource name="hibernate.cfg.xml/Hibernate">
+  <database-model serializer="dbm" rdbms="MYSQL" format-version="2.6">
+    <schema id="1" name="struts2hibernate">
+      <visible>1</visible>
+    </schema>
+    <schema id="2" name="appfuse" />
+    <schema id="3" name="db-mcms-open" />
+    <schema id="4" name="demo" />
+    <schema id="5" name="information_schema" />
+    <schema id="6" name="myproject" />
+    <schema id="7" name="mysql" />
+    <schema id="8" name="order" />
+    <schema id="9" name="performance_schema" />
+    <schema id="10" name="shopping" />
+    <schema id="11" name="tutorial_hibernate" />
+    <schema id="12" name="tutorial_service" />
+    <schema id="13" name="tutorial_spring" />
+    <table id="14" parent="1" name="studends" />
+    <table id="15" parent="1" name="users" />
+    <column id="16" parent="14" name="sid">
+      <mandatory>1</mandatory>
+      <data-type>varchar(8)|0</data-type>
+    </column>
+    <column id="17" parent="14" name="sname">
+      <data-type>varchar(255)|0</data-type>
+    </column>
+    <column id="18" parent="14" name="gender">
+      <data-type>varchar(255)|0</data-type>
+    </column>
+    <column id="19" parent="14" name="birthday">
+      <data-type>date|0</data-type>
+    </column>
+    <column id="20" parent="14" name="address">
+      <data-type>varchar(255)|0</data-type>
+    </column>
+    <key id="21" parent="14" name="PRIMARY">
+      <columns>sid</columns>
+      <primary>1</primary>
+    </key>
+    <column id="22" parent="15" name="uid">
+      <mandatory>1</mandatory>
+      <data-type>int(11)|0</data-type>
+      <sequence-identity>1</sequence-identity>
+    </column>
+    <column id="23" parent="15" name="username">
+      <data-type>varchar(255)|0</data-type>
+    </column>
+    <column id="24" parent="15" name="password">
+      <data-type>varchar(255)|0</data-type>
+    </column>
+    <key id="25" parent="15" name="PRIMARY">
+      <columns>uid</columns>
+      <primary>1</primary>
+    </key>
+  </database-model>
+</dataSource>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="dataSourceStorageLocal">
+    <data-source name="MySQL - Struts2Hibernate@localhost" uuid="e5ee6a1e-5f79-40ef-844b-b1f901af7670">
+      <database-info product="MySQL" version="5.5.32" jdbc-version="4.0" driver-name="MySQL Connector Java" driver-version="mysql-connector-java-5.1.35 ( Revision: 5fb9c5849535c13917c2cf9baaece6ef9693ef27 )">
+        <extra-name-characters>#@</extra-name-characters>
+        <identifier-quote-string>`</identifier-quote-string>
+      </database-info>
+      <case-sensitivity plain-identifiers="lower" quoted-identifiers="lower" />
+      <secret-storage>master_key</secret-storage>
+      <user-name>root</user-name>
+      <introspection-scope>Struts2Hibernate:</introspection-scope>
+      <resolve-scope>Struts2Hibernate:</resolve-scope>
+    </data-source>
+    <data-source name="hibernate.cfg.xml/Hibernate" uuid="550baf51-9939-4b10-9af5-0eca16cd3a76">
+      <database-info product="MySQL" version="5.5.32" jdbc-version="4.0" driver-name="MySQL Connector Java" driver-version="mysql-connector-java-5.1.35 ( Revision: 5fb9c5849535c13917c2cf9baaece6ef9693ef27 )">
+        <extra-name-characters>#@</extra-name-characters>
+        <identifier-quote-string>`</identifier-quote-string>
+      </database-info>
+      <case-sensitivity plain-identifiers="lower" quoted-identifiers="lower" />
+      <user-name>root</user-name>
+      <user-password>dfd8dfc5dfc5dfde</user-password>
+      <introspection-scope>struts2hibernate:</introspection-scope>
+      <resolve-scope>struts2hibernate:</resolve-scope>
+    </data-source>
+  </component>
+</project>
